@@ -4,6 +4,10 @@
     font-family:system-ui
 }
 
+body{
+  margin:0;
+}
+
 /* CABECERA */
 .cabecera{
   background:white;
