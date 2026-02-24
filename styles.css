@@ -146,6 +146,11 @@ button:hover{
    margin-top: 7%;
   margin-bottom: 7%; 
 }
+
+.logos img{
+  max-width: 22rem;
+  height: 12rem;
+}
 #segundasec{
   background-color: #c6c6c66e;
   width: 100%;
@@ -173,15 +178,6 @@ button:hover{
   margin-bottom: 5%;
   padding-bottom: 5%;
 }
-.caja_seg{
- 
-}
-
-
-
-
-
-
 
 
 
