@@ -1,0 +1,319 @@
+*{
+    padding:0;
+    box-sizing:border-box;
+    font-family:system-ui
+}
+
+/* CABECERA */
+.cabecera{
+  background:white;
+  border-bottom:1px solid #e6e6e6;
+}
+
+.cabecera__contenedor{
+  max-width:1150px;
+  margin:auto;
+  padding:0 30px;
+  height:70px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:600
+}
+
+/* LOGO CHIQUITO */
+.logo__icono{
+  width:28px;
+  height:28px;
+  background:#2f6bff;
+  color:#fff;
+  border-radius:6px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+}
+
+.menu{
+    display:flex;
+    gap:40px
+}
+
+.menu a{
+    text-decoration:none;
+    color:#444;
+    font-size:14px
+}
+
+.cabecera__acciones{
+    display:flex;
+    gap:12px;
+}
+
+/* BOTONES */
+.boton{
+  padding:10px 16px;
+  border-radius:8px;
+  border:none;
+  cursor:pointer;
+  font-weight:500;
+  margin:40px
+}
+
+button:hover{
+  opacity:0.9;
+}
+
+.boton--primario{
+  background:#2f6bff;
+  color:#fff;
+  box-shadow:0 3px 8px rgba(0,0,0,.15);
+}
+
+.boton--secundario{
+  background:#fff;
+  border:1px solid #ddd;
+}
+
+
+
+
+
+/* HERO */
+.hero{
+  display:grid;
+  grid-template-columns:1.1fr 1fr;
+  gap:50px;
+  padding:70px 20px;
+  max-width:100%;
+  margin:auto;
+}
+
+.hero__titulo{
+    font-size:60px;
+    line-height:1.1;
+    margin:15px 0;
+    color:#222
+}
+
+.hero__descripcion{
+  color:#666;
+  font-size:17px;
+  line-height:1.6;
+  margin-bottom:25px;
+  max-width:520px;
+}
+
+.hero__botones{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px
+}
+
+.hero__beneficios{display:flex;
+    gap:25px;
+    color:#2f6bff;
+    font-size:14px;
+    font-weight:700;
+    display:flex;
+    gap:40px
+    
+}
+
+.hero__imagen img{
+  width:80%;
+  border-radius:12px;
+  box-shadow:0 12px 25px rgba(0,0,0,.15);
+}
+
+
+
+
+
+
+/* SEGUNDA SECCIÓN */
+#frasecitaseg{
+   margin-top: 7%;
+  margin-bottom: 7%; 
+}
+#segundasec{
+  background-color: #c6c6c66e;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom:5%;
+  padding-top: 5%;
+}
+
+#cajas_seg{
+  margin-top: 5%;
+  display:flex;
+  gap:4rem;
+  justify-content: center;
+}
+
+#frasecitamarcas{
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+#marcas{
+  display: flex;
+  justify-content: center;
+  gap:4rem;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+}
+.caja_seg{
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* TERCERA SECCIÓN */
+.cont{
+  max-width:1100px;
+  margin:auto;
+  padding:60px 20px;
+}
+
+h2{
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.sub{
+  text-align:center;
+  color:#777;
+  margin-bottom:40px;
+}
+
+/* PLANES/PRECIO */
+
+
+
+.planes{
+  display:flex;
+  gap:25px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.plan{
+  background:#fff;
+  padding:28px;
+  border-radius:14px;
+  width:300px;
+  box-shadow:0 10px 25px rgba(0,0,0,.06);
+}
+
+.plan-sub{
+  color:white;
+  font-size:14px;
+}
+
+.plan-sub2{
+  color:#5a5a5a;
+  font-size:14px;
+}
+
+.precio{
+  font-size:32px;
+  font-weight:700;
+  margin:20px 0;
+}
+
+.precio span{
+  font-size:14px;
+  color:#777;
+}
+
+.lista{
+  list-style:none;
+  padding:0;
+  margin-top:20px;
+}
+
+.lista li{
+  margin-bottom:10px;
+  font-size:14px;
+}
+
+/* PLAN POPULAR */
+
+.pop{
+  background:linear-gradient(135deg,#2563eb,#1d4ed8);
+  color:#fff;
+  transform:scale(1.05);
+}
+
+.tag{
+  background:#fff;
+  color:#2563eb;
+  padding:4px 10px;
+  border-radius:20px;
+  font-size:12px;
+  font-weight:600;
+}
+
+
+
+/* FOOTER */
+
+.foot{
+  background:#0b1b3a;
+  color:#cbd5e1;
+}
+
+.foot-grid{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1fr;
+  gap:40px;
+}
+
+.foot h5{
+  color:#fff;
+}
+
+.foot ul{
+  list-style:none;
+  padding:0;
+  font-size:14px;
+}
+
+.logo{
+  background:#fff;
+  color:#2563eb;
+  display:inline-block;
+  padding:6px 12px;
+  border-radius:6px;
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.foot-b{
+  border-top:1px solid rgba(255,255,255,.1);
+  padding:20px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  font-size:14px;
+}
+
+.links span{
+  margin-left:15px;
+}
