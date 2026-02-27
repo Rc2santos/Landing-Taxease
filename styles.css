@@ -9,27 +9,22 @@ body{
 }
 
 /* CABECERA */
-.cabecera{
-  background:white;
-  border-bottom:1px solid #e6e6e6;
-}
-
 .cabecera__contenedor{
-  max-width:1150px;
-  margin:auto;
+  max-width:100%;
   padding:0 30px;
-  height:70px;
+  height:80px;
   display:flex;
   align-items:center;
   justify-content:space-between;
+  background:white;
+  border-bottom:1px solid #e6e6e6;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:1000;
 }
 
-.logo{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    font-weight:600
-}
 
 /* LOGO CHIQUITO */
 .logo__icono{
@@ -62,12 +57,12 @@ body{
 
 /* BOTONES */
 .boton{
-  padding:10px 16px;
+  padding:7px 20px;
   border-radius:8px;
   border:none;
   cursor:pointer;
   font-weight:500;
-  margin:40px
+  margin:30px
 }
 
 button:hover{
@@ -95,12 +90,13 @@ button:hover{
   grid-template-columns:1.1fr 1fr;
   gap:50px;
   padding:70px 20px;
-  max-width:100%;
-  margin:auto;
+  max-width:85%;
+  margin-top:5rem;
+  
 }
 
 .hero__titulo{
-    font-size:60px;
+    font-size:70px;
     line-height:1.1;
     margin:15px 0;
     color:#222
@@ -131,8 +127,8 @@ button:hover{
 }
 
 .hero__imagen img{
-  width:35rem;
-  height: 20rem;
+  width:45rem;
+  height: 25rem;
   border-radius:12px;
   box-shadow:0 12px 25px rgba(0,0,0,.15);
 }
@@ -143,9 +139,13 @@ button:hover{
 
 
 /* SEGUNDA SECCIÓN */
+.sstextocentrado{
+  text-align: center;
+  font-size: large;
+}
 #frasecitaseg{
-   margin-top: 7%;
-  margin-bottom: 7%; 
+  margin-top: 2%;
+  margin-bottom: 2%; 
 }
 
 .logos img{
@@ -153,23 +153,26 @@ button:hover{
   height: 12rem;
 }
 #segundasec{
-  background-image: linear-gradient(white, #c6c6c69d, #c6c6c69d, white) ;
+  background-color: #e2e2e279;
   width: 100%;
   margin-top: 5%;
   margin-bottom:5%;
   padding-top: 5%;
 }
-
+#segundasec h2{
+  text-align: center;
+}
 #cajas_seg{
   margin-top: 5%;
   display:flex;
   gap:4rem;
   justify-content: center;
+  text-align: center;
 }
 
 #frasecitamarcas{
-  margin-top: 7%;
-  margin-bottom: 7%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 #marcas{
@@ -181,20 +184,53 @@ button:hover{
 }
 
 
+/* CUARTA SECCIÓN */
 
+#cuartasec{
+  background-color: #e2e2e279;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
+#cuartasec h1{
+  font-size:50px;
+  text-align:center;
+  margin-bottom:20px;
+}
 
+#cuartasecflex{
+  display:flex;
+  gap:25px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
 
-/* TERCERA SECCIÓN */
+#cuartasecflex img{
+  width: 35rem;
+  height: 40rem;
+  border-radius:12px;
+  box-shadow:0 12px 25px rgba(0,0,0,.15);
+}
+
+.numeritocuarta{
+  background-color: #2f6bff;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+/* QUINTA SECCIÓN */
 .cont{
   max-width:1100px;
   margin:auto;
   padding:60px 20px;
 }
 
-h2{
+.cont h2{
+  font-size:50px;
   text-align:center;
-  margin-bottom:10px;
+  margin-bottom:20px;
 }
 
 .sub{
@@ -272,6 +308,46 @@ h2{
 }
 
 
+
+
+/* CTA */
+.cta{
+  background-image: linear-gradient(to right, rgb(40, 132, 253), rgb(124, 75, 163), rgb(237, 102, 255) );
+  color:#fff;
+  padding:20px;
+  text-align:center;
+}
+
+.cta h2{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.cta p{
+  font-size:20px;
+  font-weight: 400;
+  color:#e0e0e0;
+}
+
+.cta button{
+  margin-top:30px;
+  padding:14px 28px;
+  font-size:16px;
+  background:#fff;
+  color:#2f6bff;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+  margin-bottom: 5%;
+}
+
+.cta-btns{
+  display:flex;
+  gap:40px;
+  justify-content:center;
+  margin-top:30px;
+}
 
 /* FOOTER */
 
