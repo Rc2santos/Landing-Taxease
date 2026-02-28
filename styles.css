@@ -186,6 +186,12 @@ button:hover{
 
 /* CUARTA SECCIÓN */
 
+#titulincuartasec{
+  text-align: center;
+  font-size: large;
+  margin-bottom: 8rem;
+}
+
 #cuartasec{
   background-color: #e2e2e279;
   width: 100%;
@@ -216,8 +222,22 @@ button:hover{
 .numeritocuarta{
   background-color: #2f6bff;
   color: white;
-  padding: 8px 10px;
+  padding: 16px 20px;
   border-radius: 4px;
+  font-weight: 700;
+}
+
+.textocuartasec{
+  color: #777;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.parrafocuartasec{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
 /* QUINTA SECCIÓN */
