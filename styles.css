@@ -311,6 +311,62 @@ svg{
 }
 
 /* SECCIÓN 3.5 */
+/* SECCION INTERMEDIA */
+
+.seccionintermedia{
+padding:80px 20px;
+text-align:center;
+}
+
+.seccionintermedia svg{
+  width: 30px;
+  margin-bottom:-1rem;
+  fill:#1d4ed8
+}
+
+.seccionintermedia__titulo{
+font-size:40px;
+color:#2563eb;
+margin-bottom:15px;
+}
+
+.seccionintermedia__subtitulo{
+color:#666;
+margin-bottom:50px;
+font-size:18px;
+}
+
+.seccionintermedia__contenedor{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:90px;
+max-width:1100px;
+margin:auto;
+}
+
+
+.tarjeta{
+background:white;
+padding:25px;
+border-radius:14px;
+box-shadow:0 8px 18px rgba(0,0,0,0.08);
+text-align:left;
+}
+
+
+.tarjeta h3{
+font-size:16px;
+margin-bottom:8px;
+}
+
+.tarjeta p{
+font-size:14px;
+color:#666;
+line-height:1.5;
+}
+
+
+
 
 /* CUARTA SECCIÓN */
 
@@ -543,4 +599,144 @@ svg{
 
 .links span{
   margin-left:15px;
+}
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+/* TABLET */
+@media (max-width: 1024px){
+
+  .hero{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .hero__imagen img{
+    width:100%;
+    height:auto;
+  }
+
+  .hero__titulo{
+    font-size:48px;
+  }
+
+  #cajas_seg{
+    flex-wrap:wrap;
+  }
+
+  #marcas{
+    flex-wrap:wrap;
+  }
+
+  #camara,
+  #libreta,
+  #avion{
+    width:100%;
+    margin:1rem 0;
+  }
+
+  .flexizquierdater{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .cajasizquierda,
+  .cajaderecha{
+    margin:0;
+    width:100%;
+    align-items:center;
+    text-align:center;
+  }
+
+  #cuartasecflex img{
+    width:100%;
+    height:auto;
+  }
+
+  .foot-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .seccionintermedia__contenedor{
+  grid-template-columns:repeat(2,1fr);
+  }
+
+  
+
+}
+
+
+/* MÓVIL */
+@media (max-width: 600px){
+
+  .menu{
+    display:none;
+  }
+
+  .hero{
+    padding:40px 15px;
+  }
+
+  .hero__titulo{
+    font-size:36px;
+  }
+
+  .hero__descripcion{
+    font-size:15px;
+  }
+
+  .hero__botones{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .hero__beneficios{
+    flex-direction:column;
+    gap:10px;
+    align-items:center;
+  }
+
+  #tercerasec h2{
+    font-size:36px;
+  }
+
+  #tercerasec p{
+    font-size:18px;
+  }
+
+  .cta h2{
+    font-size:34px;
+  }
+
+  .cta-btns{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .foot-grid{
+    grid-template-columns:1fr;
+    text-align:center;
+  }
+
+  .foot-b{
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+  }
+
+  .seccionintermedia__contenedor{
+  grid-template-columns:1fr;
+  }
+
+  .seccionintermedia__titulo{
+  font-size:28px;
+  } 
+
 }
